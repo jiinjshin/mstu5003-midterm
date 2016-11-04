@@ -22,9 +22,6 @@ p {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.container {
-  padding-bottom: 50px;
-}
 
 .row {
   margin: 15px 0 20px 0;
@@ -45,11 +42,14 @@ p {
   background-color: #ffffff;
 }
 
-/*.video {
-  width: 100% !important;
-  height: auto !important;
-}*/
+.jumbotron {
+	margin: 100px 0 0 0;
+	padding: 50px 100px 50px 100px;
+}
 
+.bigSections {
+  margin: 100px 0 0 0;
+}
 
 .buttonBox {
   margin: 10px 0 10px 0;
@@ -66,11 +66,11 @@ p {
   padding: 4%;
 }
 
-
 .flowchartSections {
   background-color: #f2f2f2;
   padding: 25px;
   text-align: center;
+  margin: 25px 0 0 0;
 }
 
 .outcomeDefault {
