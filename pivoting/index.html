@@ -12,32 +12,32 @@
 
 
 
-        <!-- Header Nav-->
-        <div class="nav-header">
-            <nav>
-                <ul class="nav nav-pills float-xs-right">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#introduction">Introduction</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#example">Example</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#flowchart">Structure</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#challenge">Challenge</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+    <!-- Header Nav-->
+    <div class="nav-header">
+        <nav>
+            <ul class="nav nav-pills float-xs-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="#introduction">Introduction</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#example">Example</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#flowchart">Structure</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#challenge">Challenge</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 
-        <!-- Title Banner -->
-        <div class="row">
-            <img src="./images/banner-fixed.jpg" alt="banner" width="100%">
-        </div>
+    <!-- Title Banner -->
+    <div class="row">
+        <img src="./images/banner-fixed.jpg" alt="banner" width="100%">
+    </div>
 
-<div class="container">
+    <div class="container">
 
         <!-- Introduction -->
         <div class="row">
@@ -64,6 +64,11 @@
 
             <!-- Multiple Choice Question Dropdown -->
             <div class="col-md-6">
+                <div class="row">
+                    <h2>What was the moderator's original question?</h2>
+                </div>
+
+
                 <div class="chooseOne">
                     <p>What do you say to...</p>
                     <select class="form-control">
@@ -96,55 +101,77 @@
         <div class="row">
             <h1 id="flowchart">Break It Down For Me!</h1>
             <p>This is where I will provide context of the study and provide instructions for the user to interact with the flowchart.</p>
+
+            <!-- Left Buttons - Clickable -->
             <div class="col-md-4">
-              <div class="row">
-                  <button type="button" class="btn btn-success">Success</button>
-              </div>
-              <div class="row">
-                <button type="button" class="btn btn-warning">Warning</button>
-              </div>
-              <div class="row">
-                <button type="button" class="btn btn-danger">Danger</button>
-              </div>
+                <div class="flowchartSections">
+                    <h3>Question Topic</h3>
 
+                    <div class="row">
+                        <button type="button" class="btn btn-success">Healthcare: Related</button>
+                    </div>
 
+                    <div class="row">
+                        <button type="button" class="btn btn-warning">Drug Use: Somewhat Related</button>
+                    </div>
 
-            </div>
-            <div class="col-md-4">
-              <p>Constant Answer</p>
-
-            </div>
-            <div class="col-md-4">
-                <div class="row">
-                  <div class="row">
-                    Recalled
-                  </div>
-                  <div class="row">
-                    Did Not Recall
-                  </div>
+                    <div class="row">
+                        <button type="button" class="btn btn-danger">War on Terror: Not At All Related</button>
+                    </div>
                 </div>
-                <div class="row">
-                  <div class="row">
-                    Trustworthy, honest, likable
-                  </div>
-                  <div class="row">
-                    Untrustworthy, dishonest and unlikable
-                  </div>
+            </div>
+
+            <!-- Middle - Constant Answer -->
+            <div class="col-md-4">
+                <div class="flowchartSections">
+                    <h3>Candidate's Response</h3>
+                    <div class="answerConstant">
+                        <p>Constant Answer</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right - Outcomes -->
+            <div class="col-md-4">
+
+                <div class="flowchartSections">
+                    <!-- Remembered? -->
+                    <h3>Outcome</h3>
+                    <div class="row">
+                      <h4>Recalled Question Topic?</h4>
+                        <div class="outcomeDefault">
+                            Recalled
+                        </div>
+                        <div class="outcomeDefault">
+                            Did Not Recall
+                        </div>
+                    </div>
+
+                    <!-- Character? -->
+                    <div class="row">
+                        <h4>Perception of Character</h4>
+                        <div class="outcomeDefault">
+                            Trustworthy, honest, likable
+                        </div>
+                        <div class="outcomeDefault">
+                            Untrustworthy, dishonest and unlikable
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
-</div>
+    </div>
 
-        <!-- Challenge -->
-        <div class="jumbotron">
-          <div class="container">
+    <!-- Challenge -->
+    <div class="jumbotron">
+        <div class="container">
             <h1 id="challenge">So, Where Do I Go From Here?</h1>
-            <p>Now you know a powerful tactic that politicians use frequently. Before you go out and vote, make sure that you know where your candidates really stand on the issues you care about. Go rewatch debate videos of Donald Trump and Hillary before you go out and vote on November 8!</p>
+            <p>Now you know a powerful tactic that politicians use frequently. Before you go out and vote, make sure that you know where your candidates really stand on the issues you care about. Go rewatch debate videos of Donald Trump and Hillary before
+                you go out and vote on November 8!</p>
             <button type="button" class="btn btn-primary btn-lg">Rewatch Videos</button>
-            </div>
         </div>
-
-
+    </div>
 
 
 

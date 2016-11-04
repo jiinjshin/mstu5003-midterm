@@ -3,6 +3,25 @@ h1 {
 	font-size: 30px;
 }
 
+h2 {
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-size: 22px;
+}
+
+h3 {
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+}
+
+h4 {
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  font-size: 15px;
+}
+
+p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .container {
   padding-bottom: 50px;
 }
@@ -12,7 +31,7 @@ h1 {
 }
 
 .nav {
-  margin: 0 0 10px 0;
+  margin: 0 10px 10px 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 13px;
 }
@@ -45,6 +64,40 @@ h1 {
   background-color: #d3d3d3;
   width: 100%;
   padding: 4%;
+}
+
+
+.flowchartSections {
+  background-color: #f2f2f2;
+  padding: 25px;
+  text-align: center;
+}
+
+.outcomeDefault {
+  background-color: #d3d3d3;
+  margin: 10px 0 10px 0;
+  padding: 15px;
+  text-align: center;
+  flex-direction: row;
+  color: #B3B3B3;
+}
+
+.btn-success {
+  padding: 20px;
+  width: 235px;
+  height: auto;
+}
+
+.btn-warning {
+  padding: 20px;
+  width: 235px;
+  height: auto;
+}
+
+.btn-danger {
+  padding: 20px;
+  width: 235px;
+  height: auto;
 }
 
 .float-xs-right {
