@@ -1,11 +1,52 @@
+h1 {
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-size: 30px;
+}
+
+.container {
+  padding-bottom: 50px;
+}
+
 .row {
-  margin: 20px 0 20px 0;
+  margin: 15px 0 20px 0;
 }
 
 .nav {
+  margin: 0 0 10px 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+}
+
+.nav>li>a {
+  color: #a9a9a9;
+}
+
+.nav>li>a:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+/*.video {
+  width: 100% !important;
+  height: auto !important;
+}*/
+
+
+.buttonBox {
   margin: 10px 0 10px 0;
 }
 
+.chooseOne {
+  margin: 10px 0 10px 0;
+}
+
+.boxResponsive {
+  margin: 20px 0 20px 0;
+  background-color: #d3d3d3;
+  width: 100%;
+  padding: 4%;
+}
+
 .float-xs-right {
-  float: right!important;
+  float: right !important;
 }

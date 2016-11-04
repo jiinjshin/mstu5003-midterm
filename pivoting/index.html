@@ -10,75 +10,82 @@
 
 <body>
 
-    <div class="container">
+
 
         <!-- Header Nav-->
         <div class="nav-header">
             <nav>
                 <ul class="nav nav-pills float-xs-right">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Introduction</a>
+                        <a class="nav-link" href="#introduction">Introduction</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Examples</a>
+                        <a class="nav-link" href="#example">Example</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Structure</a>
+                        <a class="nav-link" href="#flowchart">Structure</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Challenge</a>
+                        <a class="nav-link" href="#challenge">Challenge</a>
                     </li>
                 </ul>
             </nav>
         </div>
-
 
         <!-- Title Banner -->
         <div class="row">
             <img src="./images/banner-fixed.jpg" alt="banner" width="100%">
         </div>
 
+<div class="container">
+
         <!-- Introduction -->
         <div class="row">
-            <h1>What is Pivoting?</h1>
+            <h1 id="introduction">What is Pivoting?</h1>
             <p>This is where I will define pivoting and explain why it is dangerous!</p>
 
         </div>
 
         <!-- Examples -->
         <div class="row">
-            <h1>Show Me Some Examples!</h1>
+            <h1 id="example">Show Me An Example!</h1>
             <p>This is where I will provide instructions for the following section.</p>
+        </div>
 
-            <!-- Example 1 -->
-            <div class="row">
-                <div class="col-md-4">
-                    Insert Video Here
-                </div>
-
-                <div class="col-md-8">
-                    <div class="dropdown">
-                        Insert Dropdown Here
-                    </div>
-                    <div class="box">
-                        Insert Explanation Box here
-                    </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GPOkpOipBYM?start=400"></iframe>
                 </div>
             </div>
 
-            <!-- Example 2 -->
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="dropdown">
-                        Insert Dropdown Here
-                    </div>
-                    <div class="box">
-                        Insert Explanation Box here
-                    </div>
+
+            <!-- Would there be code that would hide this box until 30 seconds after the user played the video? -->
+
+            <!-- Multiple Choice Question Dropdown -->
+            <div class="col-md-6">
+                <div class="chooseOne">
+                    <p>What do you say to...</p>
+                    <select class="form-control">
+                      <option>
+                        parents who are worried about their children's education
+                      </option>
+                      <option>
+                        someone who lost their job to someone overseas?
+                      </option>
+                      <option>
+                        needs to go to college but can't afford it?
+                      </option>
+                    </select>
                 </div>
 
-                <div class="col-md-4">
-                    Insert Video Here
+                <!-- Submit Button for Multiple Choice Question -->
+                <div class="buttonBox">
+                    <button type="button" class="btn btn-primary">Submit</button></div>
+
+                <!-- Responsive Box -->
+                <div class="boxResponsive">
+                    This is where the box will turn green or red based on the user's answer. The bottom explanation will be the same regardless.
                 </div>
             </div>
         </div>
@@ -87,26 +94,56 @@
 
         <!-- Interactive Flowchart -->
         <div class="row">
-            <h1>Break It Down For Me!</h1>
+            <h1 id="flowchart">Break It Down For Me!</h1>
             <p>This is where I will provide context of the study and provide instructions for the user to interact with the flowchart.</p>
             <div class="col-md-4">
-              Three Buttons Go Here
+              <div class="row">
+                  <button type="button" class="btn btn-success">Success</button>
+              </div>
+              <div class="row">
+                <button type="button" class="btn btn-warning">Warning</button>
+              </div>
+              <div class="row">
+                <button type="button" class="btn btn-danger">Danger</button>
+              </div>
+
+
+
             </div>
             <div class="col-md-4">
-              One Answer Here
+              <p>Constant Answer</p>
+
             </div>
             <div class="col-md-4">
-              Possible outputs
+                <div class="row">
+                  <div class="row">
+                    Recalled
+                  </div>
+                  <div class="row">
+                    Did Not Recall
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="row">
+                    Trustworthy, honest, likable
+                  </div>
+                  <div class="row">
+                    Untrustworthy, dishonest and unlikable
+                  </div>
+                </div>
             </div>
         </div>
+</div>
 
         <!-- Challenge -->
-        <div class="row">
-          <h1>Where Do I Go From Here?</h1>
-            <p>Provide a challenge for the user</p>
+        <div class="jumbotron">
+          <div class="container">
+            <h1 id="challenge">So, Where Do I Go From Here?</h1>
+            <p>Now you know a powerful tactic that politicians use frequently. Before you go out and vote, make sure that you know where your candidates really stand on the issues you care about. Go rewatch debate videos of Donald Trump and Hillary before you go out and vote on November 8!</p>
+            <button type="button" class="btn btn-primary btn-lg">Rewatch Videos</button>
+            </div>
         </div>
 
-    </div>
 
 
 
