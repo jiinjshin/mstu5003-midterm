@@ -5,29 +5,30 @@
 // User uses dropdown menu to select an answer
 // User clicks submit which triggers function
   // If/else statement to trigger one of two responses:
-    // A1 and A3 (value: incorrect)
-      // Grey box becomes Red box
-      // "Incorrect." Appears
-      // Default explanation appears
 
-      // A2 (value: correct)
+    // If: A2 (value: correct)
       // Grey box becomes Green box
       // "Correct!" Appears
       // Default explanation appears
+
+      // Else: (A1 or A3 (value: incorrect))
+        // Grey box becomes Red box
+        // "Incorrect." Appears
+        // Default explanation appears
 
 
 // **'Break It Down For Me!' Section**
 
 // Interactive Flowchart of Study
 
+// **"active" state of third column buttons:**
+  // background-color: #5c5c5c (dark grey)
+  // text-color: white
+
   // User clicks 'Healthcare: Related' option
     // Healthcare button turns darker green
     // Drug Use button color fades
     // War on Terror button color fades
-
-      // **"active" state of third column buttons:
-        // background-color: #5c5c5c (dark grey)
-        // text-color: white
 
     // "Recalled" div becomes "active"
     //  "Trustworthy, honest, likable" div becomes active

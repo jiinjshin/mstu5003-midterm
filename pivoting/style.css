@@ -20,7 +20,7 @@ h4 {
 
 p {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 18px;
+	font-size: 17px;
 	line-height: 1.7;
 }
 
@@ -50,7 +50,11 @@ p {
 }
 
 .bigSections {
-  margin: 70px 0 0 0;
+  margin: 50px 0 0 0;
+}
+
+#videoAndQuestion {
+	margin: 35px 0 0 0;
 }
 
 #videoSize {
