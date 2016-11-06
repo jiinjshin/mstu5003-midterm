@@ -1,25 +1,27 @@
 h1 {
 	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-	font-size: 30px;
+	font-size: 40px;
 }
 
 h2 {
-	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-	font-size: 22px;
-}
-
-h3 {
-  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
   font-size: 20px;
 }
 
-h4 {
-  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+h3 {
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
   font-size: 15px;
+}
+
+h4 {
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-size: 30px;
 }
 
 p {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 1.7;
 }
 
 
@@ -48,7 +50,23 @@ p {
 }
 
 .bigSections {
-  margin: 100px 0 0 0;
+  margin: 70px 0 0 0;
+}
+
+#videoSize {
+	margin: 0 0 20px 0;
+}
+
+#firstSection {
+	margin: 20px 0 0 0;
+}
+
+#exampleQuestion {
+	margin: 0 0 0 0;
+}
+
+#exampleQuestionID {
+	margin: 0 0 0 0;
 }
 
 .buttonBox {
@@ -63,7 +81,11 @@ p {
   margin: 20px 0 20px 0;
   background-color: #d3d3d3;
   width: 100%;
-  padding: 4%;
+  padding: 5%;
+}
+
+.boxFont {
+	font-size: 14px;
 }
 
 .flowchartSections {

@@ -44,46 +44,51 @@
     <div class="container">
 
         <!-- Introduction -->
-        <div class="bigSections">
+        <div class="bigSections" id="firstSection">
             <h1 id="introduction">What is Pivoting?</h1>
-            <p>Pivoting, also known as dodging, is a communication tactic that politicians have been using for a long time. When given a question, </p>
+            <p> "The pivot is a way of taking a question that might be on a specific subject, and moving to answer it on your own terms," -Brett O'Donnell (Debate Consultant)</p>
+            <p>During debates, candidates use pivots ""better than 60 or 70 percent of the time" -O'Donnell</p>
+            <p>The problem is, viewers at home rarely recognize when candidates use this to their own advantage, and they feel that the candidate has answered the questions to their satisfaction.</p>
+
+<!-- http://www.npr.org/2012/10/03/162103368/how-politicians-get-away-with-dodging-the-question -->
 
         </div>
 
         <!-- Examples -->
         <div class="bigSections">
-            <h1 id="example">Show Me An Example!</h1>
+            <h1 id="example">Show Me An Example.</h1>
             <p>This is where I will provide instructions for the following section.</p>
         </div>
 
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6" id="videoSize">
                 <div class="embed-responsive embed-responsive-4by3">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GPOkpOipBYM?start=400"></iframe>
                 </div>
             </div>
 
 
-            <!-- Would there be code that would hide this box until 30 seconds after the user played the video? -->
 
             <!-- Multiple Choice Question Dropdown -->
             <div class="col-md-6">
-                <div class="row">
-                    <h2>What was the moderator's original question?</h2>
+                <div class="row" id="exampleQuestion">
+                    <h2 id="exampleQuestionID">What was the moderator's original question?</h2>
                 </div>
 
 
                 <div class="chooseOne">
-                    <p>What do you say to...</p>
                     <select class="form-control">
-                      <option>
-                        parents who are worried about their children's education
+                      <option disabled selected value> -- Select One --
+
                       </option>
-                      <option>
-                        someone who lost their job to someone overseas?
+                      <option value="incorrect">
+                        What do you say to parents who are worried about their children's education?
                       </option>
-                      <option>
-                        needs to go to college but can't afford it?
+                      <option value="correct">
+                        What do you say to someone who lost their job?
+                      </option>
+                      <option value="incorrect">
+                        What do you say to a student who needs to go to college but can't afford it?
                       </option>
                     </select>
                 </div>
@@ -94,7 +99,10 @@
 
                 <!-- Responsive Box -->
                 <div class="boxResponsive">
-                    This is where the box will turn green or red based on the user's answer. The bottom explanation will be the same regardless.
+                    <p class="boxFont">This is where the box will turn green or red based on the user's answer. The bottom explanation will be the same regardless.</p>
+                    <p class="boxFont">Moderator: What would you say to someone who has lost his job?</p>
+                    <p class="boxFont">Bush: Continue to grow the economy + I went to Washington to solve problems. + I saw a problem in the education system + No Child Left Behind legislation</p>
+                    <p class="boxFont">Lack of Jobs + Education + Promise He Fulfilled</p>
                 </div>
             </div>
         </div>
@@ -103,13 +111,14 @@
 
         <!-- Interactive Flowchart -->
         <div class="bigSections">
-            <h1 id="flowchart">Break It Down For Me!</h1>
-            <p>This is where I will provide context of the study and provide instructions for the user to interact with the flowchart.</p>
+            <h1 id="flowchart">Break It Down For Me.</h1>
+            <p>Todd Rogers, a behavioral psychologist at the Harvard Kennedy School, conducted a study to see how well the average person could detect when a candidate pivoted.</p>
+            <p>The observer listened to a speaker give a question and an answer, tried to recall the question, and determined the speaker's character.</p>
 
             <!-- Left Buttons - Clickable -->
             <div class="col-md-4">
                 <div class="flowchartSections">
-                    <h3>Question Topic</h3>
+                    <h2>Question Topic</h2>
 
                     <div class="row">
                         <button type="button" class="btn btn-success">Healthcare: Related</button>
@@ -128,9 +137,9 @@
             <!-- Middle - Constant Answer -->
             <div class="col-md-4">
                 <div class="flowchartSections">
-                    <h3>Candidate's Response</h3>
+                    <h2>Candidate's Response</h2>
                     <div class="answerConstant">
-                        <p>Constant Answer</p>
+                        <p class="boxFont">Constant Answer</p>
                     </div>
                 </div>
             </div>
@@ -140,9 +149,9 @@
 
                 <div class="flowchartSections">
                     <!-- Remembered? -->
-                    <h3>Outcome</h3>
+                    <h2>Outcome</h2>
                     <div class="row">
-                        <h4>Recalled Question Topic?</h4>
+                        <h3>Recalled Question Topic?</h3>
                         <div class="outcomeDefault">
                             Recalled
                         </div>
@@ -153,7 +162,7 @@
 
                     <!-- Character? -->
                     <div class="row">
-                        <h4>Perception of Character</h4>
+                        <h3>Perception of Character</h3>
                         <div class="outcomeDefault">
                             Trustworthy, honest, likable
                         </div>
@@ -170,18 +179,16 @@
     <!-- Challenge -->
     <div class="jumbotron">
         <div class="container">
-            <h1 id="challenge">It's All Coming Together...</h1>
-            <h2>Then, where do I go from here?</h2>
+            <h1 id="challenge">I Am Equipped to Recognize Pivoting.</h1>
+            <h4>How can I apply my knowledge?</h4>
               <p>Now that you are familiar with pivoting, you should have the necessary skills to discern when a candidate is dodging a question he doesn't want to answer.</p>
               <p>Before you vote for a politician, whether it's for the 2016 Presidential Election or for local office, make sure you're getting the answers you deserve. </p>
               <p>I challenge you to rewatch previous debates to see whether or not your candidate is <i>really</i> answering the right question!</p>
-            <button type="button" class="btn btn-primary btn-lg">Rewatch Videos</button>
+            <a href="https://www.youtube.com/results?search_query=presidential+debate" class="btn btn-primary btn-lg" role="button">Rewatch Presidential Debates</a>
         </div>
     </div>
 
-
-
-
+<script src="code.js"></script>
 </body>
 
 </html>
