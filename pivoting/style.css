@@ -25,6 +25,13 @@ p {
 }
 
 
+
+.quote {
+	/*background-color: #f2f2f2;*/
+	margin: 10px 0 10px 0;
+	padding: 3%;
+}
+
 .row {
   margin: 15px 0 20px 0;
 }
@@ -72,6 +79,8 @@ p {
 #exampleQuestionID {
 	margin: 0 0 0 0;
 }
+
+
 
 .buttonBox {
   margin: 10px 0 10px 0;
