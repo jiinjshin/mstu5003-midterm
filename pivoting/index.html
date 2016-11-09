@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 
     <!-- Header Nav-->
     <div class="nav-header">
@@ -88,7 +88,7 @@
 
 
                 <div class="chooseOne">
-                    <select class="form-control">
+                    <select class="form-control" id="multipleChoice">
                       <option disabled selected value> -- Select One --
 
                       </option>
@@ -106,7 +106,7 @@
 
                 <!-- Submit Button for Multiple Choice Question -->
                 <div class="buttonBox">
-                    <button type="button" class="btn btn-primary">Submit</button></div>
+                    <button type="button" class="btn btn-primary" id="submitMultipleChoice">Submit</button></div>
 
                 <!-- Responsive Box -->
                 <div class="boxResponsive">
@@ -124,7 +124,9 @@
         <!-- Interactive Flowchart -->
         <div class="bigSections">
             <h1 id="flowchart">Break It Down For Me.</h1>
-            <p>Rogers conducted a study<sup><a href="http://www.thejuryexpert.com/2011/09/artful-dodging-in-the-courtroom/" target="_blank"> [2]</a></sup> to see how well the average person could detect pivoting. The subject (1) listened to a speaker give a question and an answer, (2) tried to recall the question, and (3) determined the speaker's character. Three different questions were given for the same answer. Rogers concluded that unless the answer to a question was egregiously unrelated, subjects could not detect the shift in topic, and accordingly judged the character of the candidate.</p>
+            <p>Rogers conducted a study<sup><a href="http://www.thejuryexpert.com/2011/09/artful-dodging-in-the-courtroom/" target="_blank"> [2]</a></sup> to see how well the average person could detect pivoting. The subject (1) listened to a speaker give
+                a question and an answer, (2) tried to recall the question, and (3) determined the speaker's character. Three different questions were given for the same answer. Rogers concluded that unless the answer to a question was egregiously unrelated,
+                subjects could not detect the shift in topic, and accordingly judged the character of the candidate.</p>
             <p>Click on a question topic below to visualize the outcomes. </p>
 
             <!-- Left Buttons - Clickable -->
@@ -190,12 +192,12 @@
 
     <!-- Challenge -->
     <div class="jumbotron">
-        <div class="container" >
+        <div class="container">
             <h1 id="challenge">I Understand and Recognize Pivoting.</h1>
             <h4>How can I apply my knowledge?</h4>
             <p>You are now familiar with pivoting! You can improve your skills to discern when a candidate is dodging a question by viewing more videos. Practice makes perfect!</p>
             <p>Before you vote for any politician, whether it's for the 2016 Presidential Election or even for a local office position, make sure you're getting the answers you deserve. Don't be manipulated!</p>
-              <p>I challenge you to rewatch previous debates from the 2016 presidential debtaes to see whether or not Hillary Clinton and Donald Trump are <i>really</i> answering the moderator's questions!</p>
+            <p>I challenge you to rewatch previous debates from the 2016 presidential debtaes to see whether or not Hillary Clinton and Donald Trump are <i>really</i> answering the moderator's questions!</p>
             <a href="https://www.youtube.com/results?search_query=presidential+debate+2016" target="_blank" class="btn btn-primary btn-lg" role="button">Rewatch Presidential Debates</a>
         </div>
     </div>

@@ -1,0 +1,150 @@
+h1 {
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    font-size: 15px;
+}
+
+h4 {
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-size: 30px;
+}
+
+p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.quote {
+    /*background-color: #f2f2f2;*/
+    margin: 10px 0 10px 0;
+    padding: 3%;
+}
+
+.row {
+    margin: 15px 0 20px 0;
+}
+
+.nav {
+    margin: 0 10px 10px 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+
+.nav>li>a {
+    color: #a9a9a9;
+}
+
+.nav>li>a:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.jumbotron {
+    margin: 100px 0 0 0;
+    padding: 50px 100px 50px 100px;
+}
+
+.bigSections {
+    margin: 50px 0 0 0;
+}
+
+#videoAndQuestion {
+    margin: 35px 0 0 0;
+}
+
+#videoSize {
+    margin: 0 0 20px 0;
+}
+
+#firstSection {
+    margin: 20px 0 0 0;
+}
+
+#exampleQuestion {
+    margin: 0 0 0 0;
+}
+
+#exampleQuestionID {
+    margin: 0 0 0 0;
+}
+
+.buttonBox {
+    margin: 10px 0 10px 0;
+}
+
+.chooseOne {
+    margin: 10px 0 10px 0;
+}
+
+.boxResponsive {
+    margin: 20px 0 20px 0;
+    background-color: #d3d3d3;
+    width: 100%;
+    padding: 5%;
+}
+
+.boxResponsiveGreen {
+  margin: 20px 0 20px 0;
+  background-color: #C5E3BF;
+  width: 100%;
+  padding: 5%;
+}
+
+.boxResponsiveRed {
+  margin: 20px 0 20px 0;
+  background-color: #FFCCCB;
+  width: 100%;
+  padding: 5%;
+}
+
+.boxFont {
+    font-size: 14px;
+}
+
+.flowchartSections {
+    background-color: #f2f2f2;
+    padding: 25px;
+    text-align: center;
+    margin: 25px 0 0 0;
+}
+
+.outcomeDefault {
+    background-color: #d3d3d3;
+    margin: 10px 0 10px 0;
+    padding: 15px;
+    text-align: center;
+    flex-direction: row;
+    color: #B3B3B3;
+}
+
+.btn-success {
+    padding: 20px;
+    width: 235px;
+    height: auto;
+}
+
+.btn-warning {
+    padding: 20px;
+    width: 235px;
+    height: auto;
+}
+
+.btn-danger {
+    padding: 20px;
+    width: 235px;
+    height: auto;
+}
+
+.float-xs-right {
+    float: right !important;
+}

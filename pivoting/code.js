@@ -16,6 +16,15 @@
         // "Incorrect." Appears
         // Default explanation appears
 
+document.getElementById('submitMultipleChoice').addEventListener('click',function() {
+  if(document.getElementById('multipleChoice').value == "correct") {
+    document.getElementsByClassName('boxResponsive')[0].classList.remove('boxResponsiveRed');
+    document.getElementsByClassName('boxResponsive')[0].classList.add('boxResponsiveGreen');
+  } else {
+    document.getElementsByClassName('boxResponsive')[0].classList.remove('boxResponsiveGreen');
+    document.getElementsByClassName('boxResponsive')[0].classList.add('boxResponsiveRed');
+  }
+});
 
 // **'Break It Down For Me!' Section**
 
