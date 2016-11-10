@@ -94,17 +94,17 @@ p {
 }
 
 .boxResponsiveGreen {
-  margin: 20px 0 20px 0;
-  background-color: #C5E3BF;
-  width: 100%;
-  padding: 5%;
+    margin: 20px 0 20px 0;
+    background-color: #C5E3BF;
+    width: 100%;
+    padding: 5%;
 }
 
 .boxResponsiveRed {
-  margin: 20px 0 20px 0;
-  background-color: #FFCCCB;
-  width: 100%;
-  padding: 5%;
+    margin: 20px 0 20px 0;
+    background-color: #FFCCCB;
+    width: 100%;
+    padding: 5%;
 }
 
 .boxFont {
@@ -128,12 +128,12 @@ p {
 }
 
 .outcomeActive {
-  background-color: #383838;
-  margin: 10px 0 10px 0;
-  padding: 15px;
-  text-align: center;
-  flex-direction: row;
-  color: #FFFFFF;
+    background-color: #383838;
+    margin: 10px 0 10px 0;
+    padding: 15px;
+    text-align: center;
+    flex-direction: row;
+    color: #FFFFFF;
 }
 
 .btn-success {
