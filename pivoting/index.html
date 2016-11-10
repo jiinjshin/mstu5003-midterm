@@ -110,11 +110,13 @@
 
                 <!-- Responsive Box -->
                 <div class="boxResponsive">
-                    <p class="boxFont">This box will turn green or red based on the user's response, and display either "Correct!" or "Incorrect." and a default explanation. </p>
-                    <h2>Correct! / Incorrect.</h2>
+                    <h2 span id="feedbackPos">Correct!</h2>
+                    <h2 span id="feedbackNeg">Incorrect.</h2>
+                    <span id="feedbackDefault">
+                    <h3>Please see below on how Bush was able to successfully shift the focus from job loss in the U.S. to his No Child Left Behind legislation.</h3>
                     <h3>Question: What would you say to someone who has lost his job?</h3>
                     <h3>Answer: Continue to grow the economy...  I went to Washington to solve problems... I saw a problem in the education system... </h3>
-                    <h3>Manipulated Answer: No Child Left Behind legislation</h3>
+                  </span>
                 </div>
             </div>
         </div>
@@ -135,15 +137,15 @@
                     <h2>Question Topic</h2>
 
                     <div class="row">
-                        <button type="button" class="btn btn-success">Healthcare: Related</button>
+                        <button type="button" class="btn btn-success" id="healthcareButton">Healthcare: Related</button>
                     </div>
 
                     <div class="row">
-                        <button type="button" class="btn btn-warning">Drug Use: Somewhat Related</button>
+                        <button type="button" class="btn btn-warning" id="drugButton">Drug Use: Somewhat Related</button>
                     </div>
 
                     <div class="row">
-                        <button type="button" class="btn btn-danger">War on Terror: Not At All Related</button>
+                        <button type="button" class="btn btn-danger" id="terrorButton">War on Terror: Not At All Related</button>
                     </div>
                 </div>
             </div>
@@ -166,10 +168,10 @@
                     <h2>Outcome</h2>
                     <div class="row">
                         <h3>Recalled Question Topic?</h3>
-                        <div class="outcomeDefault">
+                        <div class="outcomeDefault" id="outcomePos">
                             Recalled
                         </div>
-                        <div class="outcomeDefault">
+                        <div class="outcomeDefault" id="outcomeNeg">
                             Did Not Recall
                         </div>
                     </div>
